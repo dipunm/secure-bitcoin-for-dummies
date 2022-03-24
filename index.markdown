@@ -3,10 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Secure bitcoin for dummies
+title: Introduction
+nav_order: 1
 ---
 
-Welcome, this site aims to be a well rounded guide to help newcomers to create their own secure self-custody setups.
+# Welcome
+This site aims to be a well rounded guide to help newcomers to create their own secure self-custody setups.
 
 As coined by Andreas Antonopoulos, “Not your keys 🔑, Not your bitcoin <span style="color: #F7931A; font-weight: bold;">₿</span>”.
 

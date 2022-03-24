@@ -1,12 +1,13 @@
 ---
 layout: page
-title: A visual guide to bitcoin vaults
+nav_order: 2
 ---
+# A visual guide to bitcoin vaults
 
-This page aims to give you a feeling for what a comprehensive Bitcoin vault might look like with the aid of a diagram. 
+{: .note}
+This page aims to give you a feeling for what a comprehensive bitcoin vault might look like with the aid of a diagram. 
 
-{: .note .info}
-This particular diagram uses specific tools that aid this design, namely the ColdCard and BlueWallet. Use this as a 
+The following diagram illustrates access points that we might design for our bitcoin vault. This diagram makes use of the ColdCard, XOR Seeds, and BlueWallet's "Watch-Only wallet". Your final setup may differ and use alternative tools with different features.
 
 ![A bitcoin vault diagram]({{ site.baseurl }}/assets/VAULT.drawio.png)
 
