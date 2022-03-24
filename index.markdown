@@ -12,7 +12,7 @@ As coined by Andreas Antonopoulos, “Not your keys 🔑, Not your bitcoin <span
 
 # Pick your starting point
 
-- [A visual guide to money management](#)
+- [A visual guide to bitcoin vaults](/guides/visual-guide.md)
 - [Setup a Vault](#)
   - [Setup a receive-only wallet](#)
   - [Setup an inheritance plan](#)

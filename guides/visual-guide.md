@@ -1,0 +1,70 @@
+---
+layout: page
+title: A visual guide to bitcoin vaults
+---
+
+This page aims to give you a feeling for what a comprehensive Bitcoin vault might look like with the aid of a diagram. 
+
+{: .note .info}
+This particular diagram uses specific tools that aid this design, namely the ColdCard and BlueWallet. Use this as a 
+
+![A bitcoin vault diagram]({{ site.baseurl }}/assets/VAULT.drawio.png)
+
+Our visual guide consists of 4 parts:
+
+1. A spend wallet
+2. A recovery plan
+3. A watch and deposit wallet
+4. An inheritance plan
+
+When creating our vault, we would follow the above order. However the colours indicate how frequently each part might be used:
+
+- The watch and deposit wallet, marked in green, will be our most frequently used part.
+- We expect that our spend wallet, marked in orange, will be used less frequently.
+- Our recovery plan should not typically be required, it exists purely in case of an emergency.
+- Finally, the inheriance plan is not expected to be used until the most final of emergencies.
+
+# The spend wallet
+![The spend wallet]({{ site.baseurl }}/assets/VAULT-spend.drawio.png)
+
+The spend wallet allows us to create and sign transactions from set of bitcoin addresses. Bitcoin addresses can be thought of as one-time use banking account details that we often present to others as a QR code.
+
+In this diagram, we use the ColdCard hardware wallet which has a comprehensive set of security features to protect your keys. Hardware wallets allow us to safely spend our bitcoin without making common mistakes that might leak our private key(s) to the world wide web.
+
+The ability to spend is protected by two factors here: 
+- we require physical access to the device, 
+- we require knowledge of the access pin(s).
+
+# The recovery plan
+![The recovery plan]({{ site.baseurl }}/assets/VAULT-recovery.drawio.png)
+
+As part of setting up our hardware wallet, we will have a 24 word mnemonic phrase written down which you are expected to hide and protect. This is the most basic form of a recovery plan, but it can also be easy to lose, steal or destroy.
+
+Our recovery plan uses a technique called "Seed XOR" to split our backup into two keys, and store them separately. We will carefully store one key digitally online, and the other on a physical medium.
+
+This setup protects our bitcoin from theft:
+- If your digital key is compromised, hackers will not be able to access our bitcoin without the physical counterpart.
+- If physical key is stolen, an robber is unlikely to have access to the digital counterpart.
+
+It also protects our bitcoin from lossses:
+
+- If stored on a reputable cloud storage such as Dropbox, Google Drive or similar, our digital key will automatically be duplicated which protects it from accidental loss and our cloud account can typically be restored even if we forget our account password.
+- Our physical key can be duplicated to ensure that we have backup copies if our key is ever lost or stolen, and the requirement of needing the digital counterpart means that creating duplicates will not directly compromise our bitcoin in the way that the basic recovery solution might.
+
+Finally, we include a document with detailed instructions that should ease our minds and allow us to calmly and safely recover our bitcoin.
+
+To recover, we need access to one of the physical keys, and one of the digital keys. We can then either use a new ColdCard or use a paper worksheet to combine them for full access to our funds.
+
+If ever we use this recovery, we should immediately create a new setup and move our funds to the new setup as soon as possible.
+
+# The watch and deposit wallet
+![The watch wallet]({{ site.baseurl }}/assets/VAULT-watch.drawio.png)
+
+This part of the setup allows us to view our balance and to deposit funds into our vault without even touching our hardware wallet. This gives us a more convenient way to interact with our bitcoin vault which will help us resist the persuasive urge to compromise our security for convenience.
+
+We use a special key called the XPUB key which we provide to our watch-only wallet. This key is used to reveal the public addresses that our hardware wallet is able to spend from. A mobile wallet will use this to sum and display our total balance, and to reveal more unused addresses which we can deposit bitcoin to.
+
+# The inheritance plan
+![The inheritance plan]({{ site.baseurl }}/assets/VAULT-inheritance.drawio.png)
+
+TODO
