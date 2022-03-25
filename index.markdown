@@ -12,25 +12,5 @@ This site aims to be a well rounded guide to help newcomers to create their own 
 
 As coined by Andreas Antonopoulos, “Not your keys 🔑, Not your bitcoin <span style="color: #F7931A; font-weight: bold;">₿</span>”.
 
-# Pick your starting point
-
-- [A visual guide to bitcoin vaults](/guides/visual-guide.md)
-- [Setup a Vault](#)
-  - [Setup a receive-only wallet](#)
-  - [Setup an inheritance plan](#)
-- [Setup a Spending Wallet](#)
-- [Setup a Lightning Wallet](#)
-
-
-- [Creating a secure wallet with your ColdCard](#)
-- [Creating a secure wallet with TailsOS](#)
-
-
-<ul class="posts">
-  {% for post in page.categories.wallets %}
-    <li>
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{:.note}
+Use the site navigation to find your starting point.
