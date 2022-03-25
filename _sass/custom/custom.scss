@@ -13,3 +13,13 @@
     border: 3px solid $border-color;
     padding: 1em 1.2em;
 }
+
+.site-header, .main-header {
+    max-height: 95px;
+    height: 60px;
+
+    @media (min-width: 50rem) {
+        max-height: 95px;
+        height: 95px;
+    }
+}
