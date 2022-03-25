@@ -31,6 +31,16 @@ github_username:  dipunm
 remote_theme: just-the-docs/just-the-docs
 search_enabled: false
 
+collections:
+  btc_vault:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    btc_vault:
+      name: Creating a bitcoin vault
+
 # plugins:
 #   - 
 
