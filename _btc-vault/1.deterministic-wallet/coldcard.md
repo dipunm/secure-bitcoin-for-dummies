@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Creating a deterministic wallet
+title: Using the ColdCard
+parent: Creating a deterministic wallet
+nav_order: 1
 ---
-
 # Creating a deterministic wallet
 
 {:.note}

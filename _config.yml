@@ -33,13 +33,13 @@ search_enabled: false
 # color_scheme: dark
 
 collections:
-  btc_vault:
+  btc-vault:
     permalink: "/:collection/:path/"
     output: true
 
 just_the_docs:
   collections:
-    btc_vault:
+    btc-vault:
       name: Creating a bitcoin vault
 
 # plugins:
