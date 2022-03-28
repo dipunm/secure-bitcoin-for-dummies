@@ -4,11 +4,7 @@ title: Using TailsOS
 parent: Creating a deterministic wallet
 nav_order: 2
 ---
-
-# Creating a deterministic wallet
-
-{:.note}
-A deterministic wallet, is simply a set of private keys and their addresses derived from a single master key. The master key is often displayed as a 12 of 24 word mnemonic code and a computing device is required to reveal and control all the bitcoin within the derived addresses.
+{% include_relative intro.md %}
 
 ## You will need
 - A laptop or desktop computer (see [supported specs](https://tails.boum.org/doc/about/requirements/index.en.html))
