@@ -27,7 +27,7 @@ Using any of the guides above to check the device for tampering and ensure it is
 
 **Do not use a digital device as an alternative** to a blank sheet of paper and write on a hard surface that will not leave an imprint of what you are writing. We will be destroying the scrap paper at the end of this guide to properly secure our vault.
 
-### Creating our seed words
+### Creating seed words
 To set up our seed words, select `New Wallet`. Once we are presented with 24 words, press the (`4`) key to add dice rolls and enter at least 10 dice rolls before pressing the OK (`✔`) button.
 
 Once complete, the ColdCard will present you 24 words and ask you to write them down. Write this onto your scrap paper and underline the last word (we will refer to this last word later in this guide).
@@ -37,7 +37,7 @@ The device will then ask you to prove that you wrote the words down by having yo
 {:.note}
 We do not recommend setting up a passphrase for a vault. The passphrase would become a secret that must be shared between each of our access points and will complicate our set up unnecessarily.
 
-### View our identity fingerprint
+### Recording the identity fingerprint
 Your coldcard now has an identity fingerprint. This is a short code that can be used for comparison when restoring your wallet later, to confirm that you have restored it correctly. You can find this fingerprint by navigating the menus: `Advanced` > `View Identity`. Write down this fingerprint code as it will be useful later on in this guide.
 
 ### Testing our temporary backup
