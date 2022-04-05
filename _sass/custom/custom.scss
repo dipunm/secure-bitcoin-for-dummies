@@ -23,3 +23,7 @@
         height: 95px;
     }
 }
+
+.table-sm th, .table-sm td {
+    min-width: auto;
+}
