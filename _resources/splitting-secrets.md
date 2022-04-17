@@ -35,6 +35,6 @@ Every part is 4 digits long, making each one just as difficult to discover as th
 
 The above example was designed to give an intuition as to how a secret could be split into multiple, similarly difficult to guess parts, in a way such that no part gives any clue about the other parts.
 
-A convenient mathematical operation that can be used efficiently by computers on large numbers is the `XOR` operator.
+A convenient mathematical operation that can be used efficiently by computers on large numbers is the `XOR` operator. In fact, the operation can be much easier for us to do by hand than a modulous operation with large numbers too.
 
 With XOR, we can take any large number and merge it with many others to get a product. The order of operation is not important, so the parts can be later combined in any order, which allows us to avoid attaching hints such as "1 of 3" to our backups which would give away exactly how many parts to look for.
