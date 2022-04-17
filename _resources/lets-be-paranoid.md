@@ -20,7 +20,7 @@ This is why bitcoiners are paranoid; the thing about a _bitcoin secret_ is that 
 
 {:.note}
 <div>
-Let's be clear, the **secret** we are talking about is our private key which we are usually told to keep safe and secure. It is usually presented to us in the form of 12 to 24 random words that look like this:
+Let's be clear, the <strong>secret</strong> we are talking about is our private key which we are usually told to keep safe and secure. It is usually presented to us in the form of 12 to 24 random words that look like this:
 
   <pre class="seed">list initial manual mad escape episode excess inform evil ancient hungry toward rabbit unique stuff</pre>
 </div>
