@@ -161,6 +161,6 @@ Criminals, who the policies are designed to target, learn to work around these s
 
 ## The takeaway
 
-As mentioned before, the purpose of the [Dont trust](#dont-trust) section was not to scare or deter you, but to give a sense of the dangers we should be considering when thinking about Bitcoin security.
+As mentioned before, the purpose of the [Don't trust](#dont-trust) section was not to scare or deter you, but to give a sense of the dangers we should be considering when thinking about Bitcoin security.
 
 I hope that this will be helpful to readers to properly consider their actions and avoid a data leak of their own as they create much simpler, yet much more effective security setups.
