@@ -10,7 +10,18 @@ nav_order: 1
 # Welcome
 This site aims to be a well rounded guide to help newcomers to create their own secure self-custody setups.
 
-As coined by Andreas Antonopoulos, “Not your keys 🔑, Not your bitcoin <span style="color: #F7931A; font-weight: bold;">₿</span>”.
+The first thing we often hear after buying, is that we should "take custody of our bitcoin". As coined by Andreas Antonopoulos, “Not your keys 🔑, Not your bitcoin <span style="color: #F7931A; font-weight: bold;">₿</span>”.
 
 {:.note}
-Use the site navigation to find your starting point.
+Use the site navigation to find your starting point. If you are new, have a look at the [visual primer](btc-vault/0.primer)
+
+## Case study
+After downloading a wallet, we are confronted with a secret set of words that we need to write down and keep safe. 
+- If we lose it, we lose our money,
+- and if we are not careful, then it will get stolen, 
+- **worse still**, we may not realise it for a long time!
+
+If we are storing a small amount, it isn't such a big deal; but over time the value of bitcoin goes up and suddenly we have more bitcoin than we could bare to lose. _This_ is when we start to think harder about security, and possibly even inheritance in case of a tragedy.
+
+This site aims to provide clearly spelled out guides to create a secure, yet convenient wallet with backups and inheritance schemes. Something we can set up and then forget about; for real.
+

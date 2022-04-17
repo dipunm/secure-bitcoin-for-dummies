@@ -1,6 +1,6 @@
 .main-content .note {
     &::before {
-        content: '📌 Note';
+        content: '📌\00a0\00a0Note';
         display: block;
         font-weight: bold;
         font-size: 1.3em;
@@ -12,6 +12,14 @@
     background-color: $code-background-color;
     border: 3px solid $border-color;
     padding: 1em 1.2em;
+}
+
+.seed {
+    overflow: hidden;
+    white-space: break-spaces;
+    font-size: 0.8em;
+    border: 1px solid gray;
+    padding: 4px 12px;
 }
 
 .site-header, .main-header {

@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Secure bitcoin for dummies
+title: Secure ₿itcoin for dummies
 description: >- # this means to ignore newlines until "baseurl:"
   A series of step by step guides to secure your bitcoin your way
 baseurl: "/secure-bitcoin-for-dummies" # the subpath of your site, e.g. /blog
@@ -36,11 +36,16 @@ collections:
   btc-vault:
     permalink: "/:collection/:path/"
     output: true
+  resources:
+    permalink: "/:collection/:path/"
+    output: true
 
 just_the_docs:
   collections:
     btc-vault:
       name: Creating a bitcoin vault
+    resources:
+      name: Context & Resources
 
 # plugins:
 #   - 
