@@ -54,9 +54,11 @@ We call these operations "sensitive operations" as we are entrusting the compute
 
 Using linux based privacy focused software is a good option for non-tech savvy individuals; [TailsOS](https://tails.boum.org/) is considered the defacto standard for those who need to complete sensitive tasks on a computer.
 
-For the more advanced users, a cheap option is the Raspberry Pi Nano. This tiny device comes in at about £5!
+For the more advanced users, a cheap option is the Raspberry Pi Pico. This tiny device comes in at about £5, and with a few more components like a cheap LCD screen, it can be turned into a very private multi-purpose device. 
 
-The Nano has no wifi or bluetooth to abuse; it does require time to learn, but it can be fun and educational too.
+The Nano has no wifi or bluetooth to abuse; it does require time to learn and tinker with, but it can be fun and educational too.
+
+It's even easier if you can get your hands on a Raspberry Pi Zero v1.3 which has no wifi or bluetooth but comes with USB and HDMI ports.
 
 ## Don't trust
 
