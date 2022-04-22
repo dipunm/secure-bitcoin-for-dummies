@@ -43,22 +43,21 @@ When creating a Bitcoin secret, we need to think about 2 factors:
 
 When using a computer, we can't really know _how_ it produces randomness unless we build it ourselves. Without getting into the complexities, there are many ways that either the software, or the hardware, could compromise the uniqueness and unpredictability of a generated secret.
 
-Using a coin or some dice and rolling your own randomness is fair; even when the dice are biased, enough rolls will produce more randomness than is predictable.
-
+Using a coin or some dice and rolling your own randomness is much fairer; even when the dice are biased, the final outcome becomes exponentially more unpredictable as we incorporate more dice rolls into it.
 
 ### To keep a secret, we need radio silence
 
-It is quite difficult to find a computer without wifi and bluetooth these days, and yet in order to finalize our secrets and in order to sign transactions, we need them.
+It is quite difficult to find a computer without wifi and bluetooth these days, and yet in order to finalize our secrets and in order to sign transactions, such a device would be perfect.
 
 We call these operations "sensitive operations" as we are entrusting the computer to not broadcast our activity out using this hardware while we do these operations.
 
-Using linux based privacy focused software is a good option for non-tech savvy individuals; [TailsOS](https://tails.boum.org/) is considered the defacto standard for those who need to complete sensitive tasks on a computer.
+Using linux based privacy focused software is a good option for non-tech savvy individuals; [TailsOS](https://tails.boum.org/) is considered the defacto standard for those who need to complete sensitive tasks on a computer. Although this isn't as bullet proof as using a computer without wireless communication hardware, we can remain confident that TailsOS will not use our hardware to leak our secrets because the software is open source, has been audited, and is recommended by security and privacy advocates.
 
-For the more advanced users, a cheap option is the Raspberry Pi Pico. This tiny device comes in at about £5, and with a few more components like a cheap LCD screen, it can be turned into a very private multi-purpose device. 
+For the more advanced users, a cheap option is the Raspberry Pi Pico. This tiny device comes in at about £5, and with a few more components like a cheap LCD screen, it can be turned into a very private limited-purpose device.
 
-The Nano has no wifi or bluetooth to abuse; it does require time to learn and tinker with, but it can be fun and educational too.
+While the Pico has no wifi or bluetooth to abuse; it does require time to learn and tinker with, but it can be fun and educational too.
 
-It's even easier if you can get your hands on a Raspberry Pi Zero v1.3 which has no wifi or bluetooth but comes with USB and HDMI ports.
+It's even easier if you can get your hands on a Raspberry Pi Zero v1.3 which has no wifi or bluetooth but comes with USB and HDMI ports and can function more as a general purpose computer with a mouse, keyboard and screen.
 
 ## Don't trust
 
@@ -85,17 +84,17 @@ Even if a computer is perfectly safe and secure right now, malware that infects 
 
 ![data leaks kill]({{ site.baseurl }}/assets/data-leaks-kill.webp)
 
-Software like TailsOS can help, but there are some checks to make before using them:
+Software like TailsOS, or other privacy focused software can help, but there are some checks to make before using them:
 
-1. Do a little research: An online search can be quite invaluable, look out for people warning about it being a scam.
+1. Do a little research: An online search can be quite invaluable, look out for forums and blogs warning about your software of choice being malicious or virus ridden.
 2. Take care to download the real deal: Scammers often advertise their malware with similar names to things we want to use.
-3. Follow instructions carefully: If there are instructions on how to safely download and verify the software, follow it.
+3. Follow instructions carefully from the official site: If there are instructions on how to safely download and verify the software, follow it.
 
 ### Don't trust storage devices
 
-It might seem like a good idea to save your keys on a USB drive, but when that drive is connected to an infected computer, malware can sniff out and broadcast anything on it.
+It might seem like a good idea to save your keys on a USB drive, but when that drive is connected to an infected computer, malware can sniff out and broadcast anything on the drive.
 
-If the computer is offline while you use a USB drive, malware can still hold onto information and broadcast it later when it has access to the internet. There is also always a chance that someone might find your drive some time in the future and plug it into an infected computer and remember: once a secret is out, it's out.
+If the computer is offline while you use a USB drive, malware can still hold onto information and broadcast it later when it has access to the internet. There is also always a chance that someone might find your drive some time in the future and plug it into an infected computer and remember: **once a secret is out, it's out**.
 
 Another thing to note is that electronic devices are not designed to last forever. Heat and usage can affect the reliability of a drive over long periods of time; issues that arise can vary from corrupt files, to completely unresponsive drives.
 
