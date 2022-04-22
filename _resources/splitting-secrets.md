@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Splitting secrets
 ---
 # Getting an intuition about splitting secrets
 

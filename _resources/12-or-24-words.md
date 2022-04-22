@@ -1,5 +1,6 @@
 ---
 layout: page
+title: 12 or 24 words?
 ---
 # 12 or 24 words?
 12 words will produce 128 bits of entropy, and 24 words will produce 256 bits of entropy.

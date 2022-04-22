@@ -1,3 +1,7 @@
+---
+title: 'Securing assets: Gold v Bitcoin'
+---
+
 Notes:
 - Links to good Gold storage guides
 - Benefits:
