@@ -5,14 +5,14 @@ title: Multisig vs secret splitting
 
 # Multisig vs secret splitting
 
-When considering security, most people will boast that multi-sig setups are the best option we have so far. This article will lay out the pros and cons of secret splitting compared to multi-sig setups to allow you to make your own decision.
+When considering security, most people will boast that multisig (multiple signature) setups are the best option we have so far. This article will lay out the pros and cons of secret splitting compared to multisig setups to allow you to make your own decision.
 
 ## Multi-party setups
 
 Imagine that you create a wallet that contains bitcoin for use by a company. How the bitcoin should be spent is not up to you only, there are two other partners who have an equal say in how the money should be spent.
 
 ### Mutli-sig
-This is a perfect situation to use a multi-sig wallet; in this case, a 2-of-3 multi-sig wallet would provide the following features:
+This is a perfect situation to use a multisig wallet; in this case, a 2-of-3 multisig wallet would provide the following features:
 
 - In the case of a decision where only one party is in disagreement, the account can still be spent with the approval of only 2 of the 3 parties.
 - In the case of death or disappearance of one of the partners, the funds can still be spent, allowing the business to operate.
@@ -23,7 +23,7 @@ Each of the parties will be responsible for a single key, and must protect it fr
 
 When it comes to signing a transaction, one party must create the transaction and sign it, then pass the signed transaction to another party who will sign over it. Only once two signatures have been added will the transaction be considered valid to the Bitcoin network.
 
-There is no need for the signers to be in the same place when signing takes place, and there is no need for any one person to get access to another party's keys. A great wallet for multi-sig coordination is [Nunchuk](https://nunchuk.io/), allowing for secure end to end encrypted communication between parties and remote signing and coordination.
+There is no need for the signers to be in the same place when signing takes place, and there is no need for any one person to get access to another party's keys. A great wallet for multisig coordination is [Nunchuk](https://nunchuk.io/), allowing for secure end to end encrypted communication between parties and remote signing and coordination.
 
 ### Secret splitting
 This is **not** an ideal solution for secret splitting. Secret splitting, be it XOR seed words or Shamir's secret sharing scheme, requires parties to reveal their secrets to somebody who can combine the secrets. There is no way for each party to do their part remotely without ever learning the secret of another party.
@@ -35,19 +35,19 @@ If you trust your partners, then you may still opt for this option, but for the 
 
 Now imagine a personal wallet with no other parties. You wish to create a security setup that cannot be compromised with a single attack such as a home invasion or an online data leak.
 
-### Multi-sig
+### Multisig
 
-Using a multi-sig is not a _bad_ idea. You want to keep your keys on signing devices, for example: one on a personal computer, and one on a hardware wallet; this way, when you want to spend, you can keep your keys isolated from one another.
+Using a multisig is not a _bad_ idea. You want to keep your keys on signing devices, for example: one on a personal computer, and one on a hardware wallet; this way, when you want to spend, you can keep your keys isolated from one another.
 
 Each key needs a backup because either of the signing devices can be broken or stolen. The backups should be geographically separated, however keeping one online and the other purely physical may be a reasonable solution.
 
-Another solution is to create more keys with an N of M configuration (eg. 2 of 3 multi-sig). In this case, if one of the signing devices fails, breaks, or is stolen, then you can buy or create a new device and move the funds to a new multi-sig setup. This does, however, require you to know that a device is lost or broken before another is compromised, which is not always immediately obvious. Another potential downside of an N of M multisig wallet is that you will need to back up an XPUB (extended public key) -- another thing to back up.
+Another solution is to create more keys with an N of M configuration (eg. 2 of 3 multisig). In this case, if one of the signing devices fails, breaks, or is stolen, then you can buy or create a new device and move the funds to a new multisig setup. This does, however, require you to know that a device is lost or broken before another is compromised, which is not always immediately obvious. Another potential downside of an N of M multisig wallet is that you will need to back up an XPUB (extended public key) -- another thing to back up.
 
 The more keys you create as part of the setup, the more geographically isolated locations you will need to use to store your backups. Also, if you happen to be a victim of surveilance or spying, then simply by physically going to these locations, you may link the seemingly unrelated locations which may compromise the security of your backups.
 
 Keeping physical hiding places secret is very difficult if you are working alone. In my opinion, sticking to a 2-of-2 allows you to maximise the compromise between security and convenience: 
 
-- One key backed up online and also used by your internet enabled multi-sig wallet when signing
+- One key backed up online and also used by your internet enabled multisig wallet when signing
   - keeps that key backed up and unlikely to be lost _(which would render a 2-of-2 multisig wallet unspendable)_, 
   - but very likely to be compromised by online hackers.
 - A second key kept completely offline, used only by an air-gapped hardware wallet and supported by two or more physical backups 
@@ -56,11 +56,11 @@ Keeping physical hiding places secret is very difficult if you are working alone
 
 With this setup, you remain vulnerable to an attacker who can access your online storage accounts _and_ one of the physical locations where you keep your backups.
 
-A big benefit of multi-sig is that the keys are never combined, so if one of the **signing devices** become compromised, an attacker will not learn all of the keys required to spend from your wallet.
+A big benefit of multisig is that the keys are never combined, so if one of the **signing devices** become compromised, an attacker will not learn all of the keys required to spend from your wallet.
 
-A drawback of this setup is that there is a learning curve to climb to understand how to sign a transaction for a multi-sig wallet. This in turn makes inheritance planning more difficult as the inheritor will need a crash cource in multi-sig wallets as part of their inheritance.
+A drawback of this setup is that there is a learning curve to climb to understand how to sign a transaction for a multisig wallet. This in turn makes inheritance planning more difficult as the inheritor will need a crash cource in multisig wallets as part of their inheritance.
 
-A commonly promoted multi-sig setup involves one service provider. A service provider will hold on to a single key while you hold on to the other two. If one of your keys is lost, you can work with the service provider to move the funds to a new account with three new keys. 
+A commonly promoted multisig setup involves one service provider. A service provider will hold on to a single key while you hold on to the other two. If one of your keys is lost, you can work with the service provider to move the funds to a new account with three new keys. 
 
 The service provider may even prove useful in the case of an untimely death, an inheritor may work with the service provider to take custody of the funds after proving ample proof of the situation, possibly for a fee. This will usually require the service provider to have your personal information in order for them to facilitate this service.
 

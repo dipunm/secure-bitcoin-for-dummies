@@ -49,7 +49,7 @@ Using a coin or some dice and rolling your own randomness is much fairer; even w
 
 It is quite difficult to find a computer without wifi and bluetooth these days, and yet in order to finalize our secrets and in order to sign transactions, such a device would be perfect.
 
-We call these operations "sensitive operations" as we are entrusting the computer to not broadcast our activity out using this hardware while we do these operations.
+We call these operations "sensitive operations" as we are entrusting the computer to not broadcast anything about our activity while we do these operations.
 
 Using linux based privacy focused software is a good option for non-tech savvy individuals; [TailsOS](https://tails.boum.org/) is considered the defacto standard for those who need to complete sensitive tasks on a computer. Although this isn't as bullet proof as using a computer without wireless communication hardware, we can remain confident that TailsOS will not use our hardware to leak our secrets because the software is open source, has been audited, and is recommended by security and privacy advocates.
 
@@ -72,15 +72,15 @@ Worse still, there are no guarantees that they can protect your bitcoin, that th
 
 ### Don't trust your computer
 
-Using computers (including your iPhone!) can be pretty convenient for many things, but when dealing with our hard earned money and personal security, these devices are too easy to compromise, and we should avoid them for as much as possible anyway.
+Using personal devices like computers, laptops, tablets or our mobile devices can be pretty convenient for many things, but when dealing with our _hard earned money_ and personal security, these devices are too easy to compromise, and we should avoid using them for as much as possible anyway.
 
-- Brand new computers and devices can come pre-installed with sneaky spyware and bloatware which can hint about where and how we might keep our digital secrets to the world wide web.
+- Brand new computers and devices can come pre-installed with sneaky spyware and bloatware which can, intentionally or unintentionally, hint about where and how we might keep our digital secrets to the world wide web.
 - Personal devices are constantly being targeted by attackers online who find ways to intercept our online activities to get malware onto our devices, or trick us into performing actions that would compromise our devices.
 - Public or even unattended personal computers can be fitted with keyloggers that track what we type in the hopes of collecting sensitive information.
 
-Anti-virus companies would lead you to believe that their software will protect you, but they tend to give us a false sense of security while underdelivering on their promises and making your computer feel slow and sluggish. I've also noticed many non-tehcnical people fall victim to bad actors on the internet who target users by creating fake advertisements and convincing people to install their fake anti-virus software. 
+Anti-virus companies would lead you to believe that their software will protect you, but they tend to give us a false sense of security while underdelivering on their promises and making your computer feel slow and sluggish. I've also noticed many non-tehcnical people fall victim to bad actors on the internet who target users by creating fake advertisements and convincing people to install their fake "anti-virus" software. 
 
-Even if a computer is perfectly safe and secure right now, malware that infects your computer in the future can find and broadcast, even potentially deleted data.
+Even if a computer is perfectly safe and secure _right now_, malware that infects your computer in the future can find and broadcast, even potentially deleted data.
 
 ![data leaks kill]({{ site.baseurl }}/assets/data-leaks-kill.webp)
 
@@ -104,12 +104,14 @@ Finally, USB drives are vulnerable to ransomware attacks where your data is as g
 
 Service providers might seem like a good idea: big companies with experts, all looking after our data; think Google Drive, Apple iCloud, Amazon Web Services, or even Microsoft services like Outlook, Office 365 and OneDrive.
 
-These companies create pretty advanced security setups, but their solutions are designed for very complex products that require a constant battle between security, convenience, and customer satisfaction.
+These companies create pretty advanced security setups, but their solutions are designed for very complex products that require a compromise between security, convenience, and customer satisfaction.
 
 Bitcoin security doesn't have to be so complicated because:
-- we don't need copies distributed around the world, 
+- we don't need copies distributed around the world,
 - we don't need instant access to it at any time of the day,
 - and we also don't need surveillance tools to detect illegal or copyrighted content to satisfy business responsibilities.
+
+Our own security setups can be tailored, fit for purpose, and therefore can be more secure _and_ simpler.
 
 Worse still, service providers specialise in identity based security. When we create a Google account, we provide personally identifying information and this is the reason why identity theft is so lucrative. Using stolen personal information to access online services is very effective for attackers to get access to our personal and private data.
 
@@ -134,13 +136,15 @@ Not only do these things protect you and your home against opportunists who migh
 
 ![spy chips are deceiving]({{ site.baseurl }}/assets/spy-chips.png)
 
-A common piece of advice you might find online, is to use "multi-sig" to create a wallet that is protected by multiple keys, each secured by a different hardware device. The idea here being that even if one of the devices were compromised, your coins would still be safe.
+A common piece of advice you might find online, is to use "multisig" to create a wallet that is protected by multiple keys, each secured by a different hardware device. The idea here being that even if one of the devices were compromised, your coins would still be safe.
+
+[This article]({{ site.baseurl }}/resources/multisig-vs-secret-splitting) gives some details about the difference between multisig and secret splitting.
 
 ### Don't trust yourself
 
 One of the biggest reasons why people avoid self custody is because they don't trust themselves. This section is here to ease your mind; you don't need to trust yourself completely because smart engineers and enthusiasts have been thinking about human error and have embedded things like checksums into the standards that we use when securing our bitcoin.
 
-Take for example our 24 word mnemonic phrase, the last word is always the checksum. That means that it represents a number that can be used in a mathematical formula to confirm that the 23 words before it are correct. If a word were missed, mispelled, or re-arranged, the checksum would fail and guides like this one would expose that when it has you double check your work.
+Take for example our 24 word mnemonic phrase, the last word is always the checksum. That means that it represents a number that can be used in a mathematical formula to confirm that the 23 words before it are correct. If a word were missed, mispelled, or re-arranged, the checksum would fail and well written guides will show you how to use the checksum to double check your work.
 
 ### The government in the room
 
@@ -148,11 +152,13 @@ You may not see the government as your enemy, you may believe that the governmen
 
 ![the government in the room]({{ site.baseurl }}/assets/the-government-in-the-room.webp)
 
-Private information must be kept private. Not just from the guy next door, but also from the hacker around the world. When we learn the lengths that our government goes to surveil and control individuals, it isn't hard to appear paranoid.
+Private information must be kept private. Not just from the guy next door, but also from the hacker around the world. When we learn the lengths that our government will go to surveil and control individuals, it isn't hard to appear paranoid.
 
-There are many real examples of our government system misusing power and spreading injustices in the courtroom, bailing out banks, spying on innocent citizens, and unapologetically causing or allowing harm to fall on its country. Some actions can be negligence or unintended consequences, but many are intentional atrocities; either way, we should protect ourselves from our governments negligences and its atrocities.
+There are many real examples of our government system misusing power and spreading injustices in the courtroom, bailing out banks, spying on innocent citizens, and unapologetically causing or allowing harm to fall on its country. Some actions can be negligence or unintended consequences, but many are intentional atrocities; either way, we should protect ourselves from our governments' negligences and its atrocities. 
 
-Some of the lesser known, but relevant government actions include embedding backdoors into security products <sup>[[1](https://www.wired.com/2015/12/researchers-solve-the-juniper-mystery-and-they-say-its-partially-the-nsas-fault/)][[2](https://www.wired.com/2013/09/nsa-backdoor/)]</sup>, and badly implemented policies like KYC.
+We should also consider foreign governments who also attempt to surveil across borders, as well as global organisations that help governments align their goals and policies.
+
+Some of the lesser known, but relevant government actions include embedding backdoors into security products <sup>[[1](https://www.wired.com/2015/12/researchers-solve-the-juniper-mystery-and-they-say-its-partially-the-nsas-fault/)][[2](https://www.wired.com/2013/09/nsa-backdoor/)]</sup>, and badly implemented global policies like KYC.
 
 Backdoors can compromise the way we generate our secrets, and jeopardize our security setups. Fortunately, Bitcoin does not rely on any of the suspectedly compromised algorithms.
 
@@ -162,6 +168,6 @@ Criminals, who the policies are designed to target, learn to work around these s
 
 ## The takeaway
 
-As mentioned before, the purpose of the [Don't trust](#dont-trust) section was not to scare or deter you, but to give a sense of the dangers we should be considering when thinking about Bitcoin security.
+As mentioned before, the purpose of the [Don't trust](#dont-trust) section was not to scare you, but to give a sense of the dangers we should be considering when thinking about Bitcoin security.
 
 I hope that this will be helpful to readers to properly consider their actions and avoid a data leak of their own as they create much simpler, yet much more effective security setups.
