@@ -14,7 +14,7 @@ In a 4 combination lock, there is a total of 10,000 combinations. If we were to 
 
 Imagine a code: `7296`, if the numbers `7`, `2`, and `9` were discovered, then the code could be found in 10 attempts, although, if the order of digits were unknown, it could take up to 1190 attempts.
 
-This is the equivalent of splitting your seed words into chunks, it just isn't a great idea.
+This is the equivalent of splitting your seed words into chunks; it just isn't a great idea.
 
 ## Splitting a secret correctly
 

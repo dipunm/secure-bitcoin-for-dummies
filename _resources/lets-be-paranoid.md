@@ -55,7 +55,7 @@ Using linux based privacy focused software is a good option for non-tech savvy i
 
 For the more advanced users, a cheap option is the Raspberry Pi Pico. This tiny device comes in at about £5, and with a few more components like a cheap LCD screen, it can be turned into a very private limited-purpose device.
 
-While the Pico has no wifi or bluetooth to abuse; it does require time to learn and tinker with, but it can be fun and educational too.
+While the Pico has no wifi or bluetooth to abuse, it does require time to learn and tinker with, yet it can be fun and educational too!
 
 It's even easier if you can get your hands on a Raspberry Pi Zero v1.3 which has no wifi or bluetooth but comes with USB and HDMI ports and can function more as a general purpose computer with a mouse, keyboard and screen.
 
