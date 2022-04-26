@@ -9,7 +9,7 @@ You may have heard that 12 words provide enough entropy for a wallet. Technicall
 
 > _... the produced keys are only 256 bits long, and offer about half of that in terms of security._
 
-This means that a SHA256 over 128 bits of entropy would be equivalent to the final wallet and anything more is "wasted entropy".
+This means that a SHA256 over 128 bits of entropy would be equivalent, in terms of security, to the final wallet and anything more is "wasted entropy".
 
 {:.note}
 The way we can reason about our security, is by considering the following: given a 128 bit long hash of a message, is it easier to guess the original message, or the hash itself. The lowest common denominator is the maximum security of the key.

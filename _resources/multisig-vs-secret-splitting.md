@@ -5,7 +5,9 @@ title: Multisig vs secret splitting
 
 # Multisig vs secret splitting
 
-When considering security, most people will boast that multisig (multiple signature) setups are the best option we have so far. This article will lay out the pros and cons of secret splitting compared to multisig setups to allow you to make your own decision.
+When considering security, most people will boast that multisig (multiple signature) setups are the best option we have so far, but an alternative option we have is "secret splitting".
+
+This article will lay out the pros and cons of secret splitting compared to multisig setups to allow you to make your own decision as to which to pursue for your own security plans.
 
 ## Multi-party setups
 
@@ -26,7 +28,9 @@ When it comes to signing a transaction, one party must create the transaction an
 There is no need for the signers to be in the same place when signing takes place, and there is no need for any one person to get access to another party's keys. A great wallet for multisig coordination is [Nunchuk](https://nunchuk.io/), allowing for secure end to end encrypted communication between parties and remote signing and coordination.
 
 ### Secret splitting
-This is **not** an ideal solution for secret splitting. Secret splitting, be it XOR seed words or Shamir's secret sharing scheme, requires parties to reveal their secrets to somebody who can combine the secrets. There is no way for each party to do their part remotely without ever learning the secret of another party.
+Secret splitting is **not** an ideal solution for this situation. Secret splitting, be it XOR seed words or Shamir's secret sharing scheme, requires parties to reveal their secrets to somebody who can combine the secrets. There is no way for each party to do their part remotely without ever learning the secret of another party.
+
+The moment a transaction has been signed, the individual parts are irrelevant because the combined secret is already known to someone. Worse still, in order to split the secret, the original secret needed to have been known to someone first, so secret splitting is just not fit for a multi-party setup.
 
 If you trust your partners, then you may still opt for this option, but for the system to be fair, each party must forget the secret that is not theirs at the time of wallet creation, and at the time of spending every time. The person who does not forget their partners' secrets ultimately owns the account and can spend from the wallet without any restrictions.
 
@@ -38,6 +42,11 @@ Now imagine a personal wallet with no other parties. You wish to create a securi
 ### Multisig
 
 Using a multisig is not a _bad_ idea. You want to keep your keys on signing devices, for example: one on a personal computer, and one on a hardware wallet; this way, when you want to spend, you can keep your keys isolated from one another.
+
+{:.note}
+Any internet enabled device must be considered "part of the internet" and therefore is not isolated from any other internet enabled device. A key on your phone, and another on your laptop is effectively 2 keys on "the internet".\
+\
+A hardware wallet can be isolated as long as it remains "airgapped". 
 
 Each key needs a backup because either of the signing devices can be broken or stolen. The backups should be geographically separated, however keeping one online and the other purely physical may be a reasonable solution.
 

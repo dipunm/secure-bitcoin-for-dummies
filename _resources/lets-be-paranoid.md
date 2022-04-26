@@ -16,7 +16,7 @@ title: Let's be paranoid
 
 Protecting your bitcoin is often difficult because it requires **keeping a secret™**. We know that intuitively, information is hard to keep secret and once it's out, it's out.
 
-This is why bitcoiners are paranoid; the thing about a _bitcoin secret_ is that a it can be worth a lot of money. The good news is that keeping a secret is easier when you take the time, and prepare to protect it.
+This is why bitcoiners are paranoid; the thing about a _bitcoin secret_ is that it can be worth a lot of money. The good news is that keeping a secret is easier when you take the time, and prepare to protect it.
 
 {:.note}
 <div>
@@ -49,19 +49,25 @@ Using a coin or some dice and rolling your own randomness is much fairer; even w
 
 It is quite difficult to find a computer without wifi and bluetooth these days, and yet in order to finalize our secrets and in order to sign transactions, such a device would be perfect.
 
-We call these operations "sensitive operations" as we are entrusting the computer to not broadcast anything about our activity while we do these operations.
+We call these operations "sensitive operations" because if any insights about our activity is broadcast, it could weaken or even sabotage our personal security and/or our bitcoin.
+
+We not only require our computer to not broadcast anything about our activity _while_ we do these operations, but we also require it to refrain from saving anything to a storage drive. Many popular devices monitor and track our activity and broadcast it later when an internet connection is established; the intention isn't necessarily to steal from us, but to provide insight to tech companies that will help them design their future products. Unfortunately, the data they collect can still be compromising and that data can still land in the wrong hands.
 
 Using linux based privacy focused software is a good option for non-tech savvy individuals; [TailsOS](https://tails.boum.org/) is considered the defacto standard for those who need to complete sensitive tasks on a computer. Although this isn't as bullet proof as using a computer without wireless communication hardware, we can remain confident that TailsOS will not use our hardware to leak our secrets because the software is open source, has been audited, and is recommended by security and privacy advocates.
 
 For the more advanced users, a cheap option is the Raspberry Pi Pico. This tiny device comes in at about £5, and with a few more components like a cheap LCD screen, it can be turned into a very private limited-purpose device.
 
-While the Pico has no wifi or bluetooth to abuse, it does require time to learn and tinker with, yet it can be fun and educational too!
+While the Pico has no wifi or bluetooth to abuse, it does require time to learn and tinker with; it can, however, be fun and educational too!
 
-It's even easier if you can get your hands on a Raspberry Pi Zero v1.3 which has no wifi or bluetooth but comes with USB and HDMI ports and can function more as a general purpose computer with a mouse, keyboard and screen.
+It's even easier if you can get your hands on a Raspberry Pi Zero v1.3 which has no wifi or bluetooth but comes with USB and HDMI ports and can function more as a general purpose computer when paired with a mouse, keyboard and a monitor.
 
 ## Don't trust
 
-Let's lay down the hammer here. This section describes what not to do. The goal here is to provide a sense of what dangers to look out for, and what to consider when carefully considering how to handle anything Bitcoin related.
+Let's lay down the hammer here. This section describes what not to do. 
+
+The goal here is to provide a sense of what dangers to look out for, and what to consider when carefully considering how to handle anything Bitcoin related.
+
+Treat this as educational, and use it to help guide your own judgement, but don't treat it as gospel; all decisions we make have trade-offs.
 
 ### Don't trust the exchange
 It might seem obvious, Bitcoiners are constantly declaring that storing bitcoin on exchanges are not secure.
