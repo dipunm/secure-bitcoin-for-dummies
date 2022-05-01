@@ -8,6 +8,11 @@ nav_order: 1
 ---
 
 # Welcome
+
+{:.note}
+**Please be advised, this site is a work in progress.** Some pages are in draft, or have dummy content. This notice will be removed when at least one "Creating A Bitcoin Vault" guide (using a ColdCard) has been finalised.
+
+
 This site aims to be a well rounded guide to help newcomers to create their own secure self-custody setups.
 
 The first thing we often hear after buying, is that we should "take custody of our bitcoin". As coined by Andreas Antonopoulos, “Not your keys 🔑, Not your bitcoin <span style="color: #F7931A; font-weight: bold;">₿</span>”.
