@@ -32,6 +32,16 @@ Revealing even _three_ of these parts would reveal nothing about the fourth code
 
 Every part is 4 digits long, making each one just as difficult to discover as the other and most importantly, each part is just as difficult to guess as the final code itself, even if multiple parts are already discovered.
 
+A nice visual aid to understanding the modulo operator is the number wheel. Imagine a number wheel from 0 to 99, it would look like this:
+
+![number wheel]({{ site.baseurl }}/assets/number-wheel.png)
+
+When adding two numbers, you would count on the wheel so that `80 + 55` would take you from `80` up to `99`, and then continue through `0` all the way to `35`. 
+
+Given any number between 0 and 99, what could the next possible number be? -- Every single digit in the wheel is a possible answer which means that no matter how many parts of the formula `a + b + c + d % 99 = answer` you have, you are no closer to finding the final answer until you have all of the parts.
+
+Pretty neat!
+
 ## Splitting Bitcoin secrets
 
 The above example was designed to give an intuition as to how a secret could be split into multiple, similarly difficult to guess parts, in a way such that no part gives any clue about the other parts.

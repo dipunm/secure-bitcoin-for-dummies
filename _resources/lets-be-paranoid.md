@@ -135,10 +135,13 @@ When buying things like a hardware wallet, there are some basic things to consid
 - Try to buy directly from the manufacturer to reduce the number of middlemen that know who you are and what you are buying
 - Try to collect physically to avoid involving delivery companies
 - Avoid marketplaces like Amazon who leave their products in a warehouse allowing for potential tampering
+- Consider buying general purpose hardware and building your own solution if you are up to the task
 
 Not only do these things protect you and your home against opportunists who might get access to your data, but they also protect you from product sabotage. Electronic products can be compromised without your knowledge, for example, check out these articles: 
 - <https://www.wired.com/story/plant-spy-chips-hardware-supermicro-cheap-proof-of-concept/>
 - <https://theintercept.com/2019/01/24/computer-supply-chain-attacks/>
+
+To clarify on the general purpose hardware consideration, there are opensource projects such as the Seed Signer and the Specter Hardware. General purpose components are less likely to be targeted and compromised, and if bought from a physical store, there is less chance of them being compromised in transit.
 
 ![spy chips are deceiving]({{ site.baseurl }}/assets/spy-chips.png)
 
