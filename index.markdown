@@ -6,16 +6,17 @@ layout: page
 title: Introduction
 nav_order: 1
 ---
-
-# Welcome
-
 {:.note}
 **Please be advised, this site is a work in progress.** Some pages are in draft, or have dummy content. This notice will be removed when at least one "Creating A Bitcoin Vault" guide (using a ColdCard) has been finalised.
 
+# Welcome
+It doesn't take long, after hearing about Bitcoin, to hear that you should take your bitcoin off exchanges and into your own custody.
 
-This site aims to be a well rounded guide to help newcomers to create their own secure self-custody setups.
+Upto the first few hundred dollars worth, you may be content with a hot wallet such as Muun, Breez or Phoenix, but eventually, we need to think about securing a valuable amount of bitcoin and even about how we hand it down in the case of an untimely death.
 
-The first thing we often hear after buying, is that we should "take custody of our bitcoin". As coined by Andreas Antonopoulos, “Not your keys 🔑, Not your bitcoin <span style="color: #F7931A; font-weight: bold;">₿</span>”.
+This site aims to be a well rounded guide to help newcomers to create their own, super secure, self-custody setups.
+
+As coined by Andreas Antonopoulos, “Not your keys 🔑, Not your bitcoin <span style="color: #F7931A; font-weight: bold;">₿</span>”.
 
 {:.note}
 Use the site navigation to find your starting point. If you are new, have a look at the [visual primer](btc-vault/0.primer)
